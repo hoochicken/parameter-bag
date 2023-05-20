@@ -1,8 +1,8 @@
 <?php
 
-namespace QlParameterBag;
+namespace hoochicken;
 
-class QlParameterBag
+class ParameterBag
 {
     private array $params = [];
     private static ?ParameterBag $parameterBag = null;
