@@ -3,5 +3,8 @@
     "description": "Administrate parameters in a collection, setters (setInt, setString ...) and getters (getInt, getString ...)",
     "require": {
         "php": ">=8.1"
-    }
+    },
+   "autoload": {
+      "classmap": ["ParameterBag.php"]
+   }
 }
