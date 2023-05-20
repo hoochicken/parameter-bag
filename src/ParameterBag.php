@@ -1,7 +1,5 @@
 <?php
 
-namespace hoochicken;
-
 class ParameterBag
 {
     private array $params = [];
