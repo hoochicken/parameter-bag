@@ -5,6 +5,9 @@
         "php": ">=8.1"
     },
    "autoload": {
-      "classmap": ["ParameterBag.php"]
-   }
+      "classmap": ["ParameterBag.php"],
+       "psr-4": {
+          "ParameterBag\\": "src/ParameterBag/"
+       }
+   }    
 }
