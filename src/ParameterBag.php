@@ -25,7 +25,7 @@ class ParameterBag
         return $this->params[$key] ?? $default;
     }
 
-        public function getBool($key, ?bool $default = null): ? bool
+    public function getBool($key, ?bool $default = null): ? bool
     {
         $return = $this->params[$key] ?? $default;
         return (bool) $return;
