@@ -1,6 +1,6 @@
 <?php
 
-namespace Hoochicken;
+namespace Hoochicken\ParameterBag;
 
 class ParameterBag
 {
